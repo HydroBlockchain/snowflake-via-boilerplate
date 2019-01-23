@@ -1,0 +1,12 @@
+{
+  "ignore": [
+    "package-lock.json"
+  ],
+  "commands": {
+    "Compile contracts": "npm run compile",
+    "Test contracts": "npm test"
+  },
+  "hooks": {
+    "post-unpack": "npm install && npm test"
+  }
+}

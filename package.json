@@ -1,0 +1,20 @@
+{
+  "name": "snowflake-via-boilerplate",
+  "version": "1.0.0",
+  "description": "This box comes with everything you need to create your own Truffle Box.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "truffle": "^5.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile": "rm -rf build/ && truffle compile",
+    "test": "truffle test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
